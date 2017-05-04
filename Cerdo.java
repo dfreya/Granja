@@ -15,8 +15,8 @@ public class Cerdo implements Animal
      */
     public Cerdo()
     {
-        peso=pesoCerdo;
-        puntosVida=vida;
+        peso=PESOCERDO;
+        puntosVida=VIDA;
     }
     public int getPeso(){
         return peso;

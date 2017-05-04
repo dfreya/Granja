@@ -15,8 +15,8 @@ public class Pollo implements Animal
      */
     public Pollo()
     {
-        peso=pesoPollo;
-        puntosVida=vida;
+        peso=PESOPOLLO;
+        puntosVida=VIDA;
     }
     public int getPeso(){
         return peso;

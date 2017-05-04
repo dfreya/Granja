@@ -8,11 +8,11 @@
 
 public interface Animal
 {
-    public int vida=100;
-    public int pesoPollo=1;
-    public int pesoPato=2;
-    public int pesoCerdo=15;
-    public int pesoVaca=25;
+    public static int VIDA=100;
+    public static int PESOPOLLO=1;
+    public static int PESOPATO=2;
+    public static int PESOCERDO=15;
+    public static int PESOVACA=25;
     public void comer();
 
     public void vacunar();

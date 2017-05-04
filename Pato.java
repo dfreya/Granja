@@ -15,8 +15,8 @@ public class Pato implements Animal
      */
     public Pato()
     {
-        peso=pesoPato;
-        puntosVida=vida;
+        peso=PESOPATO;
+        puntosVida=VIDA;
     }
     public int getPeso(){
         return peso;

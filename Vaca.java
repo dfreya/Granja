@@ -15,8 +15,8 @@ public class Vaca implements Animal
      */
     public Vaca()
     {
-        peso=pesoVaca;
-        puntosVida=vida;
+        peso=PESOVACA;
+        puntosVida=VIDA;
     }
 
     public int getPeso(){
